@@ -1,0 +1,3 @@
+This pattern establishes paths from Heap event tables.  A path is defined as a series of events that occur in a predefined order identified through Heap event tables and represent paths to conversion.  Structuring the data this way allows us to look both forward, finding what and how much users purchase through specific pages, and backward, finding the pages that drive the most and least conversions for a specific product.
+
+In this example, we'll use pseudocode from a fictional ecommerce site because the Heap event tables will be different for every Heap implementation.  The tables `home`, `product` and `add_to_cart` are fictional, but all other tables referenced are universal to Heap implementations.
